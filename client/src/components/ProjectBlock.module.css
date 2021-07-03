@@ -1,0 +1,42 @@
+.background{
+    width:20vw;
+    height:20vw;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+.background:hover .opacity{
+    background-color: black;
+    width:20vw;
+    height:20vw;
+    position:absolute;
+    animation:fadeInOpacity 1s forwards
+}
+.background:hover h2{
+    position:absolute;
+    color:White;
+    display:block;
+    z-index:10;
+    animation:fadeIn 1s forwards
+}
+
+.background img{
+    width:20vw;
+    height:auto;
+}
+.background h2{
+    display:none;
+}
+@keyframes fadeIn{
+    0%{opacity: 0}
+    0%{transform:translate(0,100%)}
+    100%{opacity:1}
+    100%{transform:translate(0,0)}
+}
+@keyframes fadeInOpacity{
+    0%{opacity:0}
+    100%{opacity:0.5}
+}

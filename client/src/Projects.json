@@ -1,0 +1,34 @@
+[
+    {
+        "name":"Car shopping site",
+        "description":["My first project, Im pretty sure I overwhelmed myself doing this as 1st project since we barely did any html and css on college.", "I learned everything from scratch and I manage to figure something out. Project is not finished but the core part I wanted to make is done."],
+        "id":0,
+        "technologies":["HTML5","CSS3","JavaScript"],
+        "sourceLink":"https://github.com/abralic98/meckasajt",
+        "githubPages":"https://abralic98.github.io/meckasajt/"
+    },
+    {
+        "name":"Sword shopping site",
+        "description":["Similar project as 1st one, but more focused on design and funcionality.", "I expanded knowledge alot and I manage to reduce code a bit and make it more optimal"],
+        "id":1,
+        "technologies":["HTML5","CSS3","JavaScript"],
+        "sourceLink":"https://github.com/abralic98/katanashop",
+        "githubPages":"https://abralic98.github.io/katanashop/"
+    },
+    {
+        "name":"React Meetings",
+        "description":["My first react project, I watched some tutorials to learn fundamentals of react.","With aquired basic knowledge I managed to create website where you can add favourite places and store them using firebase."],
+        "id":2,
+        "technologies":["React js","CSS3","Google Firebase"],
+        "sourceLink":["https://github.com/abralic98/MeetupPage"],
+        "githubPages": null
+    },
+    {
+        "name":"BalkanFlix",
+        "description":["This is the project im most aproud of.","It took me awhile to make it work but I succeed.","In this app you can make account, log in, explore movies and tv shows, watch trailers and search specific things.", "This is first project where I learned how to communicate between frontend and backend, how to use api calls and how to manage CRUD (Create, Read, Update, Delete) in mySQL server."],
+        "id":3,
+        "technologies":["React js","CSS3","Express js","mySQL","TMDB API"],
+        "sourceLink":"https://github.com/abralic98/react-movies",
+        "githubPages": null
+    }
+]

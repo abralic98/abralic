@@ -1,0 +1,91 @@
+
+.background{
+    position:absolute;
+    top:0;
+    left:0;
+    background-color: black;
+    width:100vw;
+    min-height:100vh;
+}
+.titleBlock{
+    width:50vw;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.titleBlock h1{
+    color:White;
+    font-family: 'Roboto', sans-serif;
+    font-size:7vw;
+    animation: fadeIn 0.5s forwards
+}
+@keyframes fadeIn{
+    0%{opacity:0}
+    0%{transform:translate(0,120%)}
+    100%{opacity:1};
+    100%{transform:translate(0,0)}
+}
+.showMore{
+    width:15vw;
+    height:3vw;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:9vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+.showMore p:hover{
+    color:#E50914;  
+}
+.showMore p{
+    color:white;
+    margin-left:1vw;
+    font-size:1.2vw;
+    font-family: 'Roboto', sans-serif;
+}
+.showMore img{
+    width:2vw;
+    animation:fadeInOut 1s infinite;
+}
+@keyframes fadeInOut{
+    0%{opacity: 0;}
+    50%{opacity:1}
+    100%{opacity:0}
+}
+.about{
+    margin-top:30vw;
+    margin-left:auto;
+    margin-right:auto;
+    width:50vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    align-items: left;
+    padding:5vw;
+}
+.about h1{
+    font-size:2vw;
+    color:white;
+}
+.about h2{
+    color:White;
+    font-size:1.5vw;
+}
+.about p{
+    color:white;
+    font-size:1.2vw;
+}
+.about ul li{
+    color:White;
+    font-size:1.2vw;
+}
+.about .link:hover{
+    color:#E50914
+}
