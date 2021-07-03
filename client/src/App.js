@@ -6,7 +6,7 @@ import SelectedProject from "./components/SelectedProject"
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="antebralic">
           <Switch>
               <Route exact path="/home">
                     <HomePage/>
