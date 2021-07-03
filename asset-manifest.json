@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/antebralic/static/css/main.05c6f9ed.chunk.css",
+    "main.js": "/antebralic/static/js/main.26bd920e.chunk.js",
+    "main.js.map": "/antebralic/static/js/main.26bd920e.chunk.js.map",
+    "runtime-main.js": "/antebralic/static/js/runtime-main.64a042cf.js",
+    "runtime-main.js.map": "/antebralic/static/js/runtime-main.64a042cf.js.map",
+    "static/js/2.b57d3b91.chunk.js": "/antebralic/static/js/2.b57d3b91.chunk.js",
+    "static/js/2.b57d3b91.chunk.js.map": "/antebralic/static/js/2.b57d3b91.chunk.js.map",
+    "index.html": "/antebralic/index.html",
+    "static/css/main.05c6f9ed.chunk.css.map": "/antebralic/static/css/main.05c6f9ed.chunk.css.map",
+    "static/js/2.b57d3b91.chunk.js.LICENSE.txt": "/antebralic/static/js/2.b57d3b91.chunk.js.LICENSE.txt",
+    "static/media/arrowDown.9edfd30d.png": "/antebralic/static/media/arrowDown.9edfd30d.png",
+    "static/media/backgroundx.669f9a3e.png": "/antebralic/static/media/backgroundx.669f9a3e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64a042cf.js",
+    "static/js/2.b57d3b91.chunk.js",
+    "static/css/main.05c6f9ed.chunk.css",
+    "static/js/main.26bd920e.chunk.js"
+  ]
+}
