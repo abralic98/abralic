@@ -2,6 +2,8 @@ import classes from "./ProjectsPage.module.css"
 import Navigation from "../components/Navigation"
 import ProjectBlock from "../components/ProjectBlock"
 import ProjectJSON from "../Projects.json"
+import {useContext} from "react"
+
 
 const ProjectsPage = () =>{
    

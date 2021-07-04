@@ -5,7 +5,8 @@
         "id":0,
         "technologies":["HTML5","CSS3","JavaScript"],
         "sourceLink":"https://github.com/abralic98/meckasajt",
-        "githubPages":"https://abralic98.github.io/meckasajt/"
+        "githubPages":"https://abralic98.github.io/meckasajt/",
+        "youtube":"https://www.youtube.com/watch?v=Owm_Q8WLeME"
     },
     {
         "name":"Sword shopping site",
@@ -13,7 +14,8 @@
         "id":1,
         "technologies":["HTML5","CSS3","JavaScript"],
         "sourceLink":"https://github.com/abralic98/katanashop",
-        "githubPages":"https://abralic98.github.io/katanashop/"
+        "githubPages":"https://abralic98.github.io/katanashop/",
+        "youtube":"https://www.youtube.com/watch?v=iZD8MvMgLFM"
     },
     {
         "name":"React Meetings",
@@ -21,14 +23,16 @@
         "id":2,
         "technologies":["React js","CSS3","Google Firebase"],
         "sourceLink":["https://github.com/abralic98/MeetupPage"],
-        "githubPages": null
+        "githubPages": null,
+        "youtube":"https://www.youtube.com/watch?v=_R9gVc9ggZg"
     },
     {
         "name":"BalkanFlix",
         "description":["This is the project im most aproud of.","It took me awhile to make it work but I succeed.","In this app you can make account, log in, explore movies and tv shows, watch trailers and search specific things.", "This is first project where I learned how to communicate between frontend and backend, how to use api calls and how to manage CRUD (Create, Read, Update, Delete) in mySQL server."],
         "id":3,
-        "technologies":["React js","CSS3","Express js","mySQL","TMDB API"],
+        "technologies":["React js","CSS3","Node js","mySQL","REST API"],
         "sourceLink":"https://github.com/abralic98/react-movies",
-        "githubPages": null
+        "githubPages": null,
+        "youtube":"https://www.youtube.com/watch?v=_R9gVc9ggZg"
     }
 ]

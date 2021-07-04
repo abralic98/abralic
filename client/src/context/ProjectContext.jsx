@@ -13,9 +13,12 @@ export const ProjectContextP = (props)=>{
         githubPages:""
     })
 
+    const [currentNav,setCurrentNav] = useState();
+
     return (
         <ProjectContext.Provider value={{
-            projects:[project,setProject]
+            projects:[project,setProject],
+            navigation:[currentNav,setCurrentNav],
         }}>
             {props.children}
         </ProjectContext.Provider>

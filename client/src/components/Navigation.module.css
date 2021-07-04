@@ -1,12 +1,12 @@
 .navigation{
-    width:15vw;
+    width:21vw;
     height:5vw;
     color:white;
     top:5vw;
-    left:3vw;
+    left:1vw;
     position:fixed;
     font-family: 'Roboto', sans-serif;
-    font-size:1.5vw;
+    font-size:1.3vw;
     display:flex;
     align-items: center;
     justify-content: space-around;
@@ -15,7 +15,7 @@
 .navigation p{
     animation:fadeIn 0.5s forwards
 }
-.navigation p:hover{
+.navigation .pa:hover{
     color:#E50914
 }
 @keyframes fadeIn{

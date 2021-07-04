@@ -20,7 +20,7 @@
 .background h2{
     color:white;
     font-size:2vw;
-    animation:fadeInTech 2.5s forwards
+    animation:fadeInTech 2.5s forwards;
 }
 .background .description {
     color:white;
@@ -29,11 +29,55 @@
     animation:fadeInDesc 2s forwards
 }
 .background ul{
-    animation:fadeInTech 2.5s forwards
+    animation:fadeInTech 2.5s forwards;
+    display:flex;
+    list-style-type: none;
+    width:35vw;
+    margin-left:-2vw;
+    justify-content: space-around;
 }
 .background li{
-    color:white;
-    font-size:1.5vw;
+    font-size:5vw;
+    width:5vw;
+    height:5vw;
+}
+.background .trio:nth-child(1)  {
+    color:#e34c26;
+}
+.background .trio:nth-child(2)  {
+    color:#264de4;
+}
+.background .trio:nth-child(3)  {
+    color:#f0db4f;
+}
+.background .tech:nth-child(1){
+    color:#61DBFB;
+    animation:reactRotate 5s linear infinite;
+    pointer-events: none;
+    height:5vw;
+}
+.background .tech:nth-child(2){
+    color:#264de4;
+}
+.background .tech:nth-child(3){
+    color:#264de4;
+}
+.background .tech:nth-child(3){
+    color:#FFCB2B;
+}
+.background .tech:nth-child(4){
+    color:#00758F;
+}
+.background .tech2{
+    color:#3c873a;
+}
+.background .tech img{
+    width:5vw;
+    height:5vw;
+}
+@keyframes reactRotate{
+    0%{transform:rotate(0deg)}
+    100%{transform:rotate(360deg)}
 }
 @keyframes fadeInTitle{
     0%{opacity:0}
@@ -57,4 +101,30 @@
     50%{transform:translate(-200%,0)}
     100%{transform:translate(0,0)}
     100%{opacity:1}
+}
+
+.background .information{
+    animation:fadeInTech 2.5s forwards;
+    display:flex;
+    width:40vw;
+    justify-content: space-around;
+}
+.background .source{
+    font-size:7vw;
+    color:#333;
+    cursor:pointer;
+}
+.background .source:hover{
+    color:rgb(92, 92, 92);  
+}
+.background .youtube{
+    font-size:7vw;
+    color:#FF0000;
+    cursor:pointer;
+}
+.background .yt:hover{
+    color:#bd0000;
+}
+.background .links{
+    margin-top:5vw;
 }

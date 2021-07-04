@@ -2,14 +2,29 @@ import classes from "./AboutPage.module.css"
 import Navigation from "../components/Navigation"
 import arrow from "../images/arrowDown.png"
 import {Link} from "react-router-dom"
+import { useContext } from "react";
+import { ProjectContext, ProjectContextP } from "../context/ProjectContext";
 const AboutPage = () =>{
+    const {navigation} = useContext(ProjectContext);
+    const [currentNav,setCurrentNav] = navigation;
+
+    function projects(){
+        setCurrentNav((prev)=>prev="projects")
+        window.scroll(0,0)
+    }
+    function aboutMe(){
+        window.scrollTo({
+            top: 1500,
+            behavior: "smooth"
+          });
+    }
     return (
         <div className={classes.background}>
             <Navigation/>
             <div className={classes.titleBlock}>
                 <h1>I design {"&"} build user interfaces </h1>
             </div>
-            <div className={classes.showMore}>
+            <div onClick={aboutMe} className={classes.showMore}>
                 <img src={arrow} alt="" />
                 <p>More About Me</p>
             </div> 
@@ -35,7 +50,7 @@ const AboutPage = () =>{
                     <li>Node js</li>
                     <li>MySQL</li>
                 </ul>
-                <Link to="/projects"> <h2 className={classes.link}>Want to check my projects?</h2> </Link>
+                <Link to="/projects"> <h2 onClick={projects} className={classes.link}>Want to check my projects?</h2> </Link>
             </div>
             
         </div>

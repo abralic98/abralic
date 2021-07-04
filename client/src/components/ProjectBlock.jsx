@@ -2,7 +2,7 @@ import classes from "./ProjectBlock.module.css"
 import balkanFlix from "../images/balkanflix.png"
 import { useHistory } from "react-router-dom"
 import { useContext } from "react" 
-import { ProjectContext, ProjectContextP } from "../context/ProjectContext"
+import { ProjectContext } from "../context/ProjectContext"
 const ProjectBlock = (projectData) =>{
     const history = useHistory();
     const {projects} = useContext(ProjectContext)
@@ -22,7 +22,8 @@ const ProjectBlock = (projectData) =>{
                     id: prev.id = projectData.projectData.id,
                     technologies: prev.technologies = projectData.projectData.technologies,
                     sourceLink: prev.sourceLink = projectData.projectData.sourceLink,
-                    githubPages: prev.githubPages = projectData.projectData.githubPages
+                    githubPages: prev.githubPages = projectData.projectData.githubPages,
+                    youtube: prev.youtube = projectData.projectData.youtube
                 }
             })
             history.replace("/projects/carshop")
@@ -35,7 +36,8 @@ const ProjectBlock = (projectData) =>{
                     id: prev.id = projectData.projectData.id,
                     technologies: prev.technologies = projectData.projectData.technologies,
                     sourceLink: prev.sourceLink = projectData.projectData.sourceLink,
-                    githubPages: prev.githubPages = projectData.projectData.githubPages
+                    githubPages: prev.githubPages = projectData.projectData.githubPages,
+                    youtube: prev.youtube = projectData.projectData.youtube
                 }
             })
             history.replace("/projects/katanashop")
@@ -48,7 +50,8 @@ const ProjectBlock = (projectData) =>{
                     id: prev.id = projectData.projectData.id,
                     technologies: prev.technologies = projectData.projectData.technologies,
                     sourceLink: prev.sourceLink = projectData.projectData.sourceLink,
-                    githubPages: prev.githubPages = projectData.projectData.githubPages
+                    githubPages: prev.githubPages = projectData.projectData.githubPages,
+                    youtube: prev.youtube = projectData.projectData.youtube
                 }
             })
             history.replace("/projects/meetings")
@@ -61,7 +64,8 @@ const ProjectBlock = (projectData) =>{
                     id: prev.id = projectData.projectData.id,
                     technologies: prev.technologies = projectData.projectData.technologies,
                     sourceLink: prev.sourceLink = projectData.projectData.sourceLink,
-                    githubPages: prev.githubPages = projectData.projectData.githubPages
+                    githubPages: prev.githubPages = projectData.projectData.githubPages,
+                    youtube: prev.youtube = projectData.projectData.youtube
                 }
             })
             history.replace("/projects/balkanflix")
