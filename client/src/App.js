@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <BrowserRouter basename="antebralic">
           <Switch>
-              <Route exact path="/home">
+              <Route exact path="/">
                     <HomePage/>
               </Route>
               <Route exact path="/about">

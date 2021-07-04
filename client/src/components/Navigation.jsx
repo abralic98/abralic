@@ -15,7 +15,7 @@ const Navigation = () =>{
                     name:prev.name=""
                 }
             })
-            history.replace("/home")
+            history.replace("/")
         }else{
             setProject((prev)=>{
                 return{
