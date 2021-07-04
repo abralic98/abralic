@@ -26,6 +26,7 @@ const ProjectBlock = (projectData) =>{
                     youtube: prev.youtube = projectData.projectData.youtube
                 }
             })
+            window.scroll(0,0)
             history.replace("/projects/carshop")
         }
         if(number===1){
@@ -40,6 +41,7 @@ const ProjectBlock = (projectData) =>{
                     youtube: prev.youtube = projectData.projectData.youtube
                 }
             })
+            window.scroll(0,0)
             history.replace("/projects/katanashop")
         }
         if(number===2){
@@ -54,6 +56,7 @@ const ProjectBlock = (projectData) =>{
                     youtube: prev.youtube = projectData.projectData.youtube
                 }
             })
+            window.scroll(0,0)
             history.replace("/projects/meetings")
         }
         if(number===3){
@@ -68,6 +71,7 @@ const ProjectBlock = (projectData) =>{
                     youtube: prev.youtube = projectData.projectData.youtube
                 }
             })
+            window.scroll(0,0)
             history.replace("/projects/balkanflix")
         }
     }
