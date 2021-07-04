@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/antebralic/static/css/main.3240ab69.chunk.css",
-    "main.js": "/antebralic/static/js/main.fe75b33a.chunk.js",
-    "main.js.map": "/antebralic/static/js/main.fe75b33a.chunk.js.map",
+    "main.js": "/antebralic/static/js/main.82395c04.chunk.js",
+    "main.js.map": "/antebralic/static/js/main.82395c04.chunk.js.map",
     "runtime-main.js": "/antebralic/static/js/runtime-main.64a042cf.js",
     "runtime-main.js.map": "/antebralic/static/js/runtime-main.64a042cf.js.map",
     "static/js/2.29af2dd3.chunk.js": "/antebralic/static/js/2.29af2dd3.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.64a042cf.js",
     "static/js/2.29af2dd3.chunk.js",
     "static/css/main.3240ab69.chunk.css",
-    "static/js/main.fe75b33a.chunk.js"
+    "static/js/main.82395c04.chunk.js"
   ]
 }
