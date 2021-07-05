@@ -50,7 +50,7 @@ const AboutPage = () =>{
                     <li>Node js</li>
                     <li>MySQL</li>
                 </ul>
-                <Link to="/projects"> <h2 onClick={projects} className={classes.link}>Want to check my projects?</h2> </Link>
+                <Link to="/projects" onClick={projects}> <h2 className={classes.link}>Want to check my projects?</h2> </Link>
             </div>
             
         </div>

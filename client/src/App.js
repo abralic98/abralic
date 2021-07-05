@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage"
 import AboutPage from "./pages/AboutPage"
 import ProjectsPage from "./pages/ProjectsPage"
 import SelectedProject from "./components/SelectedProject"
+import ContactPage from "./pages/ContactPage"
 function App() {
   return (
     <div className="App">
@@ -28,6 +29,9 @@ function App() {
               </Route>
               <Route exact path="/projects/balkanflix">
                     <SelectedProject/>
+              </Route>
+              <Route exact path="/contact">
+                    <ContactPage/>
               </Route>
           </Switch>
       </BrowserRouter>

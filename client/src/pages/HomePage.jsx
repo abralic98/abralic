@@ -35,7 +35,7 @@ const HomePage = () =>{
             setCurrentNav((prev)=>prev="projects")
         }
         if(number===2){
-            setCurrentNav((prev)=>prev="/contact")
+            setCurrentNav((prev)=>prev="contact")
         }
     }
     return (
