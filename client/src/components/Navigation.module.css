@@ -1,19 +1,20 @@
 .navigation{
-    width:21vw;
+    width:18vw;
     height:5vw;
     color:white;
     top:5vw;
-    left:1vw;
+    left:3vw;
     position:fixed;
     font-family: 'Roboto', sans-serif;
-    font-size:1.3vw;
+    font-size:1.1vw;
     display:flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: left;
     cursor:pointer;
 }
 .navigation p{
-    animation:fadeIn 0.5s forwards
+    animation:fadeIn 0.5s forwards;
+    margin-right:1vw;
 }
 .navigation .pa:hover{
     color:#E50914
@@ -23,4 +24,35 @@
     0%{transform:translate(0,120%)}
     100%{opacity:1};
     100%{transform:translate(0,0)}
+}
+
+@media only screen and (max-width:1200px){
+
+    .navigation{
+        left:8vw;
+    }
+    .navigation p{
+        font-size:1.5vw;
+    }
+}
+@media only screen and (max-width:1000px){
+    .navigation{
+        position:absolute;
+        top:5vw;
+        left:5vw;
+        width:55vw;
+    }
+    .navigation p{
+        font-size:2vw;
+    }
+}
+@media only screen and (max-width:600px){   
+    .navigation p{
+        font-size:3vw;
+    }
+}
+@media only screen and (max-width:400px){   
+    .navigation p{
+        font-size:4vw;
+    }
 }

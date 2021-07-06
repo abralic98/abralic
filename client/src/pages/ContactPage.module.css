@@ -22,8 +22,7 @@
 }
 .background .content h2{
     font-size:2vw;
-    margin-top:8vw;
-
+    margin-top:8vw; 
 }
 .background h1{
     font-size:8vw;
@@ -73,12 +72,14 @@
     margin-right:auto;
     margin-top:2vw;
     justify-content: space-around;
+    cursor:pointer;
 }
 .btn button{
     border:none;
     background-color: #E50914;
     color:white;
     font-size:1.2vw;
+    cursor:pointer;
 }
 .btnIcon{
     color:white;
@@ -125,4 +126,92 @@
 .content p{
     color:white;
     font-size:1.2vw;
+}
+
+@media only screen and (max-width:1400px){
+    .background h1{
+        margin-left:8vw;
+        font-size:7vw;
+    }
+}
+@media only screen and (max-width:1200px){
+    .background .content h2{
+        font-size:4vw;
+        margin-top:5vw; 
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .background .form{
+        display:flex;
+        width:80vw;
+        height:35vw;
+        align-items: center;
+    }
+    .background .form .inputBlock{
+        width:60vw;
+        height:20vw;
+    }
+    .background .form .inputBlock input{
+        width:35vw;
+        height:4vw;
+    }
+    .background .form .inputBlock textarea{
+        width:35vw;
+        height:8vw;
+    }
+    .background .form .inputBlock label{
+        font-size:2.5vw;
+    }
+    .background .form .btn{
+        width:30vw;
+        margin-left:30vw;
+        height:15vw;
+    }
+    .background .form .btn button{
+        font-size:2.2vw;
+    }
+    
+}
+@media only screen and (max-width:700px){
+    .contactIcons{
+        font-size:10vw;
+        width:50vw;
+        margin-top:5vw;
+    }
+}
+@media only screen and (max-width:500px){
+    .background .form{
+        display:flex;
+        width:90vw;
+        height:65vw;
+        align-items: center;
+    }
+    .background .form .inputBlock{
+        width:80vw;
+        height:30vw;
+    }
+    .background .form .inputBlock input{
+        width:50vw;
+        height:7vw;
+    }
+    .background .form .inputBlock textarea{
+        width:50vw;
+        height:15vw;
+    }
+    .background .form .inputBlock label{
+        font-size:3.5vw;
+    }
+    .background .form .btn{
+        width:60vw;
+        margin-left:15vw;
+        margin-top:5vw;
+        height:20vw;
+    }
+    .background .form .btn button{
+        font-size:4vw;
+    }
+    .background .form .btn .btnIcon{
+        font-size:4vw;
+    }
 }
