@@ -15,7 +15,8 @@
 .background h1{
     color:white;
     font-size:5vw;
-    animation:fadeInTitle 1s forwards
+    margin-top:15vw;
+    animation:fadeInTitle 1s forwards;
 }
 .background h2{
     color:white;
@@ -176,6 +177,7 @@
     }
     .background ul{
         width:80vw;
+        margin-left:-7vw;
     }
     .background li{
         font-size:10vw;
@@ -220,5 +222,8 @@
     }
     .background h2{
         font-size:6vw;
+    }
+    .background ul{
+        margin-left:-12vw;
     }
 }

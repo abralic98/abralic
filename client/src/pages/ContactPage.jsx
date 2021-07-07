@@ -78,7 +78,7 @@ const ContactPage = () =>{
             <div className={classes.content}>
                 <h1>Lets Make Something Great</h1>
                 <h2>Contact Me</h2>
-                {sendMessage===true ? <p Style={"color:green"}>Message Sent</p> : sendMessage==="no message" ? <p Style={"color:red"}>Please fill in all fields</p> : null}
+                {sendMessage===true ? <p className={classes.sent} >Message Sent</p> : sendMessage==="no message" ? <p className={classes.fail} >Please fill in all fields</p> : null}
                 <form onSubmit={sendMailCustomer} className={classes.form}action="">
                     <div  className={classes.inputBlock}>
                         <label htmlFor="">Your Name</label>

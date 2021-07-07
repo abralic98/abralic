@@ -1,12 +1,12 @@
 .navigation{
-    width:18vw;
+    width:auto;
     height:5vw;
     color:white;
     top:5vw;
     left:3vw;
-    position:fixed;
+    position:absolute;
     font-family: 'Roboto', sans-serif;
-    font-size:1.1vw;
+    font-size:1.5vw;
     display:flex;
     align-items: center;
     justify-content: left;
@@ -32,7 +32,7 @@
         left:8vw;
     }
     .navigation p{
-        font-size:1.5vw;
+        font-size:2vw;
     }
 }
 @media only screen and (max-width:1000px){
@@ -40,7 +40,7 @@
         position:absolute;
         top:5vw;
         left:5vw;
-        width:55vw;
+        width:auto;
     }
     .navigation p{
         font-size:2vw;

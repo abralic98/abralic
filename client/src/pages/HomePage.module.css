@@ -1,4 +1,6 @@
-
+.nothing{
+    display:none;
+}
 .background{
     width:100vw;
     min-height:100vh;
@@ -7,6 +9,9 @@
     top:0;
     left:0;
     overflow: hidden;
+}
+.tap{
+    display:none;
 }
 .homeFlexBox{
     display:flex;
@@ -147,4 +152,23 @@ a{
         font-size:20vw;
 
     }
+    .tap{
+        display:flex;
+        width:40vw;
+        height:8vw;
+        color:white;
+        position:absolute;
+        bottom:7vw;
+        left:30vw;
+        align-items: center;
+        justify-content: center;
+        font-size:4vw;
+        font-family: 'Roboto', sans-serif;
+        animation: tap 1s linear infinite
+    }
+}
+@keyframes tap {
+    0%{transform: translate(0)}
+    50%{transform: translate(0,2vw);}
+    100%{transform:translate(0,0)};
 }
