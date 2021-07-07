@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/antebralic/static/css/main.d647494d.chunk.css",
+    "main.css": "/antebralic/static/css/main.7939d498.chunk.css",
     "main.js": "/antebralic/static/js/main.fb2576e8.chunk.js",
     "main.js.map": "/antebralic/static/js/main.fb2576e8.chunk.js.map",
     "runtime-main.js": "/antebralic/static/js/runtime-main.64a042cf.js",
@@ -8,7 +8,7 @@
     "static/js/2.bebc9e25.chunk.js": "/antebralic/static/js/2.bebc9e25.chunk.js",
     "static/js/2.bebc9e25.chunk.js.map": "/antebralic/static/js/2.bebc9e25.chunk.js.map",
     "index.html": "/antebralic/index.html",
-    "static/css/main.d647494d.chunk.css.map": "/antebralic/static/css/main.d647494d.chunk.css.map",
+    "static/css/main.7939d498.chunk.css.map": "/antebralic/static/css/main.7939d498.chunk.css.map",
     "static/js/2.bebc9e25.chunk.js.LICENSE.txt": "/antebralic/static/js/2.bebc9e25.chunk.js.LICENSE.txt",
     "static/media/arrowDown.9edfd30d.png": "/antebralic/static/media/arrowDown.9edfd30d.png",
     "static/media/bradakek.f1dfa22c.png": "/antebralic/static/media/bradakek.f1dfa22c.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.64a042cf.js",
     "static/js/2.bebc9e25.chunk.js",
-    "static/css/main.d647494d.chunk.css",
+    "static/css/main.7939d498.chunk.css",
     "static/js/main.fb2576e8.chunk.js"
   ]
 }
