@@ -29,7 +29,7 @@
     justify-content: space-between;
     flex-wrap:wrap;
     width:50vw;
-    height:50vw;
+    height:60vw;
 }
 .background h3{
     color:white;
@@ -43,7 +43,7 @@
         flex-wrap:nowrap;
         justify-content: space-around;
         align-items: center;
-        height:180vw;
+        height:250vw;
     }
     .projects p{
         color:White;
