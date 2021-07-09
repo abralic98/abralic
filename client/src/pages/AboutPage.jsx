@@ -30,8 +30,8 @@ const AboutPage = () =>{
             </div> 
             <div className={classes.about}>
                 <h1>About</h1>
-                <h2>Hi I'm Ante. I'm Frontend software developer</h2>
-                <p>I always look myself as a person who defines the work by quality and efficiency. 
+                <h2>Hi, I'm Ante. I'm Frontend software developer</h2>
+                <p>I always look at myself as a person who defines the work by quality and efficiency. 
                     Skills can be mastered, personality is inherent. Every task I perform is another ladder of experience I gain. 
                     My goals are to keep challenging myself, going far beyond the borders of my knowledge and do interesting things that matter.</p>
                 <p>
