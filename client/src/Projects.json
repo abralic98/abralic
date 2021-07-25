@@ -6,7 +6,7 @@
         "technologies":["HTML5","CSS3","JavaScript"],
         "sourceLink":"https://github.com/abralic98/meckasajt",
         "githubPages":"https://abralic98.github.io/meckasajt/",
-        "youtube":"https://www.youtube.com/watch?v=o95kEajhRi4"
+        "youtube":"https://www.youtube.com/watch?v=XS2HGpeyMwI"
     },
     {
         "name":"Sword shopping site",
@@ -15,7 +15,7 @@
         "technologies":["HTML5","CSS3","JavaScript"],
         "sourceLink":"https://github.com/abralic98/katanashop",
         "githubPages":"https://abralic98.github.io/katanashop/",
-        "youtube":"https://www.youtube.com/watch?v=htxl_iJr3Rk"
+        "youtube":"https://www.youtube.com/watch?v=3h3p7yKq0wI"
     },
     {
         "name":"React Meetings",
@@ -24,7 +24,7 @@
         "technologies":["React js","CSS3","Google Firebase"],
         "sourceLink":["https://github.com/abralic98/MeetupPage"],
         "githubPages": null,
-        "youtube":"https://www.youtube.com/watch?v=sAkZCjx09fo"
+        "youtube":"https://www.youtube.com/watch?v=rGYP4_5JFeE"
     },
     {
         "name":"BalkanFlix",
@@ -33,6 +33,6 @@
         "technologies":["React js","CSS3","Node js","mySQL","REST API"],
         "sourceLink":"https://github.com/abralic98/react-movies",
         "githubPages": null,
-        "youtube":"https://www.youtube.com/watch?v=8FzZCHuAtvo"
+        "youtube":"https://www.youtube.com/watch?v=5VTmevzeAd8"
     }
 ]
