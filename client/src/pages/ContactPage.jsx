@@ -28,7 +28,7 @@ const ContactPage = () =>{
     const subjectInputRef = useRef()
     const messageInputRef = useRef()
     const [sendMessage,setSendMessage] = useState(false);
-    //
+    //con
     function sendMailCustomer(e){
         e.preventDefault()
         if(nameInputRef.current.value==="" || mailInputRef===""){
