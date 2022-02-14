@@ -1,3 +1,6 @@
+body{
+    overflow-x:hidden;
+}
 .background{
     width:100vw;
     min-height:100vh;

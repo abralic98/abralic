@@ -25,8 +25,12 @@ const ProjectsPage = () =>{
                 {width<1000 ? <p>React meetings</p> : null}
                 <ProjectBlock projectData={ProjectJSON[3]}/>
                 {width<1000 ? <p>BalkanFlix</p> : null}
+                <ProjectBlock projectData={ProjectJSON[4]}/>
+                {width<1000 ? <p>Game Forum</p> : null}
             </div>
-            <h3>More to come</h3>
+            <div>
+            <h3 >More on <a style={{color:"white"}}href="https://github.com/abralic98">github</a></h3>
+            </div>
             
         </div>
     )

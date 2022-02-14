@@ -16,7 +16,7 @@ const Navigation = () =>{
                     name:prev.name=""
                 }
             })
-            history.replace("/")
+            history.push("/")
         }
         if(number===1){
             setProject((prev)=>{
@@ -24,7 +24,7 @@ const Navigation = () =>{
                     name:prev.name=""
                 }
             })
-            history.replace(`/${currentNav}`)
+            history.push(`/${currentNav}`)
         }
     }
     console.log(currentNav)

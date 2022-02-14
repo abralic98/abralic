@@ -56,6 +56,23 @@ const SelectedProject = () =>{
                 </li>
             
             </ul> : 
+            project.technologies.length===4 ? 
+            <ul>
+                <li className={classes.tech}>
+                    {project.technologies[0]==="React js" ? <SiReact/> : null}
+                </li>
+                <li className={classes.tech}>
+                    {project.technologies[1]==="CSS3" ? <SiCss3/> : null}
+                </li>
+                <li className={classes.tech2}>
+                    {project.technologies[2]==="Node js" ? <SiNodeDotJs/> : null}
+                </li>
+                <li className={classes.tech}>
+                    {project.technologies[3]==="mySQL" ? <SiMysql/> : null}
+                </li>
+                
+            </ul>
+            : 
             project.technologies.length===5 ? 
             <ul>
                 <li className={classes.tech}>

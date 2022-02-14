@@ -11,7 +11,9 @@ const ProjectBlock = (projectData) =>{
         "https://www.wallpaperflare.com/static/871/312/888/mercedes-amg-c-63-s-cabriolet-nyias-2016-white-wallpaper.jpg",
         "https://cdn.wallpapersafari.com/29/11/mw5tCD.jpg",
         "https://cdn.kimkim.com/files/a/content_articles/featured_photos/f21821b56779ee07d34c654485facbf41f6cbd6f/big-b8d1c62f808e75dd2eca85616fdef999.jpg",
-        balkanFlix
+        balkanFlix,
+        "https://c4.wallpaperflare.com/wallpaper/800/847/792/minimalism-counter-strike-cs-1-6-cs-go-wallpaper-preview.jpg"
+
     ]
     function redirect(number){
         if(number===0){
@@ -27,7 +29,7 @@ const ProjectBlock = (projectData) =>{
                 }
             })
             window.scroll(0,0)
-            history.replace("/projects/carshop")
+            history.push("/projects/carshop")
         }
         if(number===1){
             setProject((prev)=>{
@@ -42,7 +44,7 @@ const ProjectBlock = (projectData) =>{
                 }
             })
             window.scroll(0,0)
-            history.replace("/projects/katanashop")
+            history.push("/projects/katanashop")
         }
         if(number===2){
             setProject((prev)=>{
@@ -57,7 +59,7 @@ const ProjectBlock = (projectData) =>{
                 }
             })
             window.scroll(0,0)
-            history.replace("/projects/meetings")
+            history.push("/projects/meetings")
         }
         if(number===3){
             setProject((prev)=>{
@@ -72,7 +74,22 @@ const ProjectBlock = (projectData) =>{
                 }
             })
             window.scroll(0,0)
-            history.replace("/projects/balkanflix")
+            history.push("/projects/balkanflix")
+        }
+        if(number===4){
+            setProject((prev)=>{
+                return{
+                    name: prev.name = projectData.projectData.name,
+                    description: prev.description = projectData.projectData.description,
+                    id: prev.id = projectData.projectData.id,
+                    technologies: prev.technologies = projectData.projectData.technologies,
+                    sourceLink: prev.sourceLink = projectData.projectData.sourceLink,
+                    githubPages: prev.githubPages = projectData.projectData.githubPages,
+                    youtube: prev.youtube = projectData.projectData.youtube
+                }
+            })
+            window.scroll(0,0)
+            history.push("/projects/skunkforum")
         }
     }
     return (

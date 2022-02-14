@@ -4,9 +4,9 @@
     top:0;
     left:0;
     background-color: black;
-    min-width:100vw;
+    width:99vw;
     min-height:100vh;
-    overflow: hidden;
+    overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
 }
 .titleBlock{

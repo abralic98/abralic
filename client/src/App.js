@@ -31,6 +31,9 @@ function App() {
               <Route exact path="/projects/balkanflix">
                     <SelectedProject/>
               </Route>
+              <Route exact path="/projects/skunkforum">
+                    <SelectedProject/>
+              </Route>
               <Route exact path="/contact">
                     <ContactPage/>
               </Route>

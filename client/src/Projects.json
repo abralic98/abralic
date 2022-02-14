@@ -28,11 +28,20 @@
     },
     {
         "name":"BalkanFlix",
-        "description":["This is a project of which I am most proud of.","It took me a while to make it work but I succeed.","In this app you can make account, log in, explore movies and tv shows, watch trailers and search specific things.", "This is the first project where I learned how to communicate between frontend and backend, how to use api calls and how to manage CRUD (Create, Read, Update, Delete) in mySQL server."],
+        "description":["In this app you can make account, log in, explore movies and tv shows, watch trailers and search specific things.", "This is the first project where I learned how to communicate between frontend and backend, how to use api calls and how to manage CRUD operations in mySQL server."],
         "id":3,
         "technologies":["React js","CSS3","Node js","mySQL","REST API"],
         "sourceLink":"https://github.com/abralic98/react-movies",
         "githubPages": null,
         "youtube":"https://www.youtube.com/watch?v=5VTmevzeAd8"
+    },
+    {
+        "name":"Game Forum",
+        "description":["My latest project.","Skunk forum is counter strike forum made for Skunk community","Frontend and backend is completely done from scratch","Site is running on Centos 8 Apache Web Server"],
+        "id":4,
+        "technologies":["React js","CSS3","Node js","mySQL"],
+        "sourceLink":"https://github.com/abralic98/skunk-forum",
+        "githubPages": null,
+        "youtube":""
     }
 ]

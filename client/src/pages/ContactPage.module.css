@@ -1,11 +1,12 @@
 .background{
     min-height: 100vh;
-    width:100vw;
+    width:99vw;
     background-color: black;
     position:absolute;
     top:0;
     font-family: 'Roboto', sans-serif;
     left:0;
+    overflow-x: hidden;
 }
 .background .content{
     width:65vw;

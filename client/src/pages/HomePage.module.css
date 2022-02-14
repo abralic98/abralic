@@ -3,7 +3,7 @@
 }
 .background{
     width:100vw;
-    min-height:100vh;
+    min-height:99vh;
     background: rgb(0,0,0);
     position:absolute;
     top:0;
